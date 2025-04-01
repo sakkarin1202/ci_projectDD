@@ -24,7 +24,7 @@ jobs:
       - name: Build and push Docker image
         uses: mr-smithers-excellent/docker-build-push@v6
         with:
-          image: ci_projectDD 
+          image: ci_projectdd
           registry: ghcr.io/sakkarin1202
           username: sakkarin1202
           password: ${{ secrets.GITHUB_TOKEN }}
